@@ -30,3 +30,5 @@ class BaseModel:
 
     def execute(self, query, params=None, fetch=False):
         return self.db_manager.execute_query(query, params, fetch)
+
+
